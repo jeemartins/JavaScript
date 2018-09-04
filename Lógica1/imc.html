@@ -23,5 +23,15 @@ var imc = calculaImc(pesoInformado, alturaInformada);
 
 document.write(nome + ", seu IMC é: " + imc);
 
+if (imc < 18.5){
+    document.write("<br> Seu IMC está abaixo do que deveria!");
+}
+else if (imc >= 18.5 && imc <= 35){
+    document.write("Seu IMC está ok!")
+}
+
+else if (imc > 35) {
+    document.write("Seu imc está acima do que deveria!")
+}
 </script>
 
