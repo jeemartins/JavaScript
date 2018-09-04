@@ -1,0 +1,36 @@
+<meta charset="UTF-8">
+
+
+
+<script>
+// criar uma função para substituir algo no código, sempre colocar antes de tudo no script;
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+
+// função com parametro 
+    function mostra(jennie) {
+        document.write (jennie);
+// você pode chamar uma funcao dentro de outra funcao
+        pulaLinha();
+    }
+
+   // mostra("oi, tudo bem?");
+
+        function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+    }
+
+    var minhaIdade = 18;
+    var idadeIrmao = 15;
+
+    mostra("Nossa diferença de idade é " + (minhaIdade - idadeIrmao));
+    pulaLinha();
+
+
+</script>

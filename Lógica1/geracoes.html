@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<script>
+    
+    function pulaLinha() {
+        document.write("<br>");
+    }
+
+        function mostra(geracoes) {
+        document.write (geracoes);
+// você pode chamar uma funcao dentro de outra funcao
+        pulaLinha();
+    }
+
+
+    var antes = 1500, agora = 2018, resultado;
+
+    resultado = (agora - antes)/28;
+
+    mostra("A quantidade de gerações é:  " + resultado);
+    pulaLinha();
+
+</script>
